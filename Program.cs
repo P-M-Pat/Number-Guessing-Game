@@ -16,7 +16,7 @@ class Program
         string? userInput;
 
         Random rand = new();
-        int answer = rand.Next(0, 101); // generate an integer between 1 and 100
+        int answer = rand.Next(1, 101); // generate an integer between 1 and 100
 
         // Console.WriteLine($"SPOILER!! The answer is {answer}");
 
